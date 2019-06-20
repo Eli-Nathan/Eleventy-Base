@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logos {
+  position: relative;
+
+  img {
+    margin: 0 14px;
+  }
+
+  &__rat {
+    position: absolute;
+    top: -40px;
+    left: -20px;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  p {
+    a {
+      color: #979797;
+  
+      &:visited {
+        color: #979797;
+      }
+
+      &:hover {
+        color: #979797;
+      }
+    }
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}

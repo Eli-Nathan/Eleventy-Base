@@ -1,0 +1,54 @@
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.logos {
+  position: relative; }
+  .logos img {
+    margin: 0 14px; }
+  .logos__rat {
+    position: absolute;
+    top: -40px;
+    left: -20px;
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+    -webkit-animation: float 6s ease-in-out infinite;
+            animation: float 6s ease-in-out infinite; }
+  .logos h1 {
+    margin-bottom: 0; }
+  .logos p a {
+    color: #979797; }
+    .logos p a:visited {
+      color: #979797; }
+    .logos p a:hover {
+      color: #979797; }
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px); }
+  50% {
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px); }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px); } }
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px); }
+  50% {
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px); }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px); } }

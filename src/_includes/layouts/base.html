@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{% if description %}{{ description }} {% else %} {{ site.description }} {% endif %}" />
+  <meta name="robots" content="index, follow" />
+  <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %}</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <link rel="author" href="{{ site.url }}" />
+  <link rel="icon" type="image/x-icon" href=/favicon.ico" />
+  <link rel="stylesheet" href="/assets/stylesheets/styles.css" type="text/css" />
+  <!-- Google Tag Manager -->
+    <!-- Insert tag manager script here -->
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+   <!-- Google Tag Manager (noscript) -->
+    <!-- Insert tag manager (noscript) here -->
+  <!-- End Google Tag Manager (noscript) -->
+    {% include partials/header.html %}
+    {{ content }}
+    {% include partials/footer.html %}
+</body>
+<script src="/assets/scripts/bundle.js"></script>
+</html>     
