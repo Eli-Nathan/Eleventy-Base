@@ -11,7 +11,7 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <link rel="author" href="{{ site.url }}" />
   <link rel="icon" type="image/x-icon" href=/favicon.ico" />
-  <link rel="stylesheet" href="/assets/stylesheets/styles.css" type="text/css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/styles.css" type="text/css" />
   <!-- Google Tag Manager -->
     <!-- Insert tag manager script here -->
   <!-- End Google Tag Manager -->
@@ -25,5 +25,5 @@
     {{ content }}
     {% include partials/footer.html %}
 </body>
-<script src="/assets/scripts/bundle.js"></script>
+<script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
 </html>     

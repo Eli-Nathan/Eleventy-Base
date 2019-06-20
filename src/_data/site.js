@@ -7,7 +7,8 @@
 */
 
 module.exports = {
-  title: "Default site title",
-  description: "Default site description",
-  ENV: process.env.ELEVENTY_ENV
+  title: 'Default site title',
+  description: 'Default site description',
+  ENV: process.env.ELEVENTY_ENV,
+  baseurl: '/Eleventy-Base'
 };
