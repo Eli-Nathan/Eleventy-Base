@@ -15,7 +15,7 @@ A base project using Eleventy as a static site generator and Gulp to compile ass
 1. Clone the repo 
 
 ```
-git clone https://github.com/eli-nathan/eleventy-base.com
+git clone git@github.com:Eli-Nathan/Eleventy-Base.git
 ```
 
 2. Use correct Node.js version
